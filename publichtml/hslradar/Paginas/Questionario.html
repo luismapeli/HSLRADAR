@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="stylesheet" type="text/css" href="../Estilo/main.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="=width=device-width, initial-scale=1.0" />
+
+    <title>HSL Radar</title>
+  </head>
+
+  <body>
+    <header class="menu-principal">
+      <div class="logo">
+        <img src="../logonovohslradar.png" />
+      </div>
+    </header>
+    <main class="col-100 menu-urls">
+      <div class="header">
+        <div class="menu">
+          <ul>
+            <li>
+              <a href="../HSL radar.html">Início</a>
+            </li>
+            <li>
+              <a href="">Alimentação</a>
+            </li>
+            <li>
+              <a href="">Higiene</a>
+            </li>
+            <li>
+              <a href="">Emprego</a>
+            </li>
+            <li>
+              <a href="">Fale conosco</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <div class="pagina">
+      <br /><br /><br />
+      <form>
+        <br /><br /><br />
+        <fieldset>
+          <div>
+            <label>Nome Completo:</label>
+            <input type="text" name="nome completo" id="nome completo" />
+            <br />
+            <br />
+            <label>Data de Nascimento:</label>
+            <input
+              type="date"
+              name="Data de nascimento"
+              id="data de nascimento"
+            />
+            <br />
+            <br />
+            <label>Gênero:</label>
+            <input type="radio" name="Gênero" id="Gênero" />Masculino
+            <input type="radio" name="Gênero" id="Gênero" />Feminino
+            <input type="radio" name="Gênero" id="Gênero" />Outro <br /><br />
+            <label>Possui alguma necessidade especial?</label>
+            <input
+              type="radio"
+              name="necessidade especial"
+              id="necessidade especial"
+            />Sim
+            <input
+              type="radio"
+              name="necessidade especial"
+              id="necessidade especial"
+            />Não
+            <br />
+            <label>Se sim ,qual?</label>
+            <select id="necessidades">
+              <option>Selecione</option>
+              <option>Auditivo</option>
+              <option>Visual</option>
+              <option>Vocal</option>
+              <option>Outros</option>
+            </select>
+            <br /><br />
+            <label>Endereço:</label>
+            <input type="text" name="Endereço" id="Endereço" />
+            <br /><br />
+            <label>Telefone</label>
+            <input type="number" name="Telefone" id="Telefone" />
+          </div>
+        </fieldset>
+      </form>
+      <h1>Vamos começar o questionário</h1>
+      <form>
+        <label>1.Quantas pessoas moram com você?</label>
+        <input type="number" name="moram" id="moram" />
+        <br /><br />
+        <label>2.Você mora com crianças?</label>
+        <input type="radio" name="crianças" id="crianças" />Nenhuma
+        <input type="radio" name="crianças" id="crianças" />1
+        <input type="radio" name="crianças" id="crianças" />2
+        <input type="radio" name="crianças" id="crianças" />3
+        <input type="radio" name="crianças" id="crianças" />Mais.Quantas?
+        <input type="number" name="crianças" id="crianças" />
+        <br />
+        <br />
+        <label>3.Você mora com pessoas com mais de 60 anos?</label>
+        <input type="radio" name="idosos" id="idosos" />Não
+        <input type="radio" name="idosos" id="idosos" />1
+        <input type="radio" name="idosos" id="idosos" />2
+        <input type="radio" name="idosos" id="idosos" />3
+        <input type="radio" name="idosos" id="idosos" />Mais.Quantas?
+        <input type="number" name="idosos" id="idosos" />
+        <br /><br />
+        <label
+          >4.Na sua família, existem pessoas com problemas crônicos de
+          saúde?(diabetes,asma,obesidade,hipertensão,etc)</label
+        >
+        <input
+          type="radio"
+          name="problemas cronicos"
+          id="problemas cronicos"
+        />Não
+        <input
+          type="radio"
+          name="problemas cronicos"
+          id="problemas cronicos"
+        />1
+        <input
+          type="radio"
+          name="problemas cronicos"
+          id="problemas cronicos"
+        />2
+        <input
+          type="radio"
+          name="problemas cronicos"
+          id="problemas cronicos"
+        />3
+        <input
+          type="radio"
+          name="problemas cronicos"
+          id="problemas cronicos"
+        />Mais.Quantas?
+        <input
+          type="number"
+          name="problemas cronicos"
+          id="problemas cronicos"
+        />
+        <br />
+        <label>Se sim,quais são?</label>
+        <input type="text" name="Quais problemas" id="Quais problemas" />
+        <br /><br />
+        <label>5.Quantas refeições você realiza diariamente</label>
+        <input type="radio" name="refeições" id="refeições" />Nenhuma
+        <input type="radio" name="refeições" id="refeições" />1
+        <input type="radio" name="refeições" id="refeições" />2
+        <input type="radio" name="refeições" id="refeições" />3 ou mais
+        <br />
+        <label
+          >Se sim, você tem acesso a uma alimentação de qualidade?(comer carne,
+          legumes e verduras regularmente)</label
+        >
+        <input type="text" name="qualidade" id="qualidade" />
+        <br /><br />
+        <label>6.Você está trabalhando atualmente?</label>
+        <select id="trabalho">
+          <option>Não</option>
+          <option>Sim,porém informalmente</option>
+          <option>Sim e formalmente</option>
+        </select>
+        <br /><br />
+        <label>7.Qual é a renda familiar?</label>
+        <input type="number" name="renda" id="renda" />
+        <br /><br />
+        <label>8.Você tem acesso a saneamento básico?</label>
+        <input type="radio" name="saneamento" id="saneamento" />Sim
+        <input type="radio" name="saneamento" id="saneamento" />Não <br /><br />
+        <label
+          >9.Você tem acesso a produtos higiênicos regularmente?(Sabão, água
+          sanitária, álcool e gel,etc)</label
+        >
+        <select id="Higiene">
+          <option>Não</option>
+          <option>Sim,porém informalmente</option>
+          <option>Sim e formalmente</option>
+        </select>
+        <br /><br />
+        <label>10.Você possui acesso a internet?</label>
+        <select id="interntet">
+          <option>Sim, pelo computador</option>
+          <option>Sim, pelo celular</option>
+          <option>Não.</option>
+        </select>
+        <br /><br />
+        <h2>Sobre a COVID...</h2>
+        <br />
+        <label
+          >11.Você ou alguém da sua família apresentou algum sintoma de covid
+          recentemente?</label
+        >
+        <input type="radio" name="sintomas covid" id="sintomas covid" />Sim
+        <input type="radio" name="sintomas covid" id="sintomas covid" />Não
+        <br />
+        <label>12.Se sim,quais sintomas?</label>
+        <input
+          type="checkbox"
+          id="sintomas"
+          name="sintomas"
+          value="Tosse"
+        />Tosse
+        <input
+          type="checkbox"
+          id="sintomas"
+          name="sintomas"
+          value="Febre"
+        />Febre
+        <input
+          type="checkbox"
+          id="sintomas"
+          name="sintomas"
+          value="Perda de olfato"
+        />Perda de olfato
+        <input
+          type="checkbox"
+          id="sintomas"
+          name="sintomas"
+          value="Outro"
+        />Outro <br /><br />
+        <label>13.Você ou alguém da sua família já teve COVID?</label>
+        <input type="radio" id="ja teve" name="ja teve" />Sim
+        <input type="radio" id="já teve" name="ja teve" />Não <br /><br />
+        <label
+          >14.Você e sua família conseguem manter o distanciamento
+          social?</label
+        >
+        <select id="distanciamento">
+          <option>Sim, todos conseguem</option>
+          <option>Não,apenas alguns</option>
+          <option>Não</option>
+        </select>
+        <br /><br />
+        <label
+          >15.Você e sua família tem acesso ao uso de máscara e álcool
+          gel?</label
+        >
+        <input type="radio" name="mascaras" id="mascaras" />Constantemente
+        <input type="radio" name="mascaras" id="mascaras" />As vezes
+        <input type="radio" name="mascaras" id="mascaras" />Não
+      </form>
+      <br /><br />
+      <button class="botao" type="submit">Cadastrar</button>
+      <br /><br />
+    </div>
+  </body>
+</html>
